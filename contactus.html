@@ -12,6 +12,7 @@
     <!-- Additional CSS must be placed after Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <!--from my research this is a data integrity warning-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
     <link rel="stylesheet" href="css/styles.css" />
 
@@ -24,7 +25,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                   <a href="index.html"><img src="img/img/logo.png" class="img-fluid"/></a>
+                   <a href="index.html" img src="img/img/logo.png" class="img-fluid"></a>
                 </div>
                 <div class="col">
                     <h1>NuCamp</h1>
@@ -36,9 +37,9 @@
 
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="img/img/logo.png" height="30" width="30" /></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+            <a class="navbar-brand" img src="img/img/logo.png" height="30" width="30"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar" aria-label="name">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nucampNavbar" aria-label="name">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="nucampNavbar">
@@ -164,13 +165,13 @@
                 </div>
                 <div class="col-6 col-sm-5 text-center">
                     <h5>Social</h5>
-                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/" aria-label="Instagram"><i
                             class="fa fa-instagram"></i></a>
-                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/" aria-label="Facebook"><i
                             class="fa fa-facebook"></i></a>
-                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/" aria-label="Twitter"><i
                             class="fa fa-twitter"></i></a>
-                    <a class="btn btn-social-icon btn-twitter" href="http://youtube.com/"><i
+                    <a class="btn btn-social-icon btn-twitter" href="http://youtube.com/" aria-label="Youtube"><i
                             class="fa fa-youtube"></i></a>
                 </div>
                 <div class="col-sm-4 text-center">
